@@ -6,18 +6,29 @@ def newkeys(length : int = 1024):
     :return 公钥,私钥
     """
     (gongyao,siyao) = rsa.newkeys(length)
-def jiami(gongyao,text):
+    return gongyao,siyao
+def jiami(gongyao,text) -> bytes:
     """
     使用rsa算法进行加密
     Args:
         gongyao : rsa 公钥
         text : 欲加密文本
     Return:
-        返回密文
+        返回密文(bytes流)
     """
     message = text.encode()
     miwen = rsa.encrypt(message, gongyao)
-    return miwen.decode()
+    return miwen
+def jiemi(siyao,miwen:bytes):
+    """
+    使用rsa算法进行解密
+    Args:
+        siyao : rsa私钥
+        miwen : 密文（bytes字节流）
+    Return:
+        明文
+    """
+    return rsa.decrypt(miwen, siyao).decode()
 def sign(siyao,text):
     """
     使用rsa算法进行数字签名

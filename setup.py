@@ -5,7 +5,7 @@ setup(
     author="Sen",
     author_email="tianhuzong@qq.com",
     url="https://github.com/tianhuzong/thztools",
-    license="MIT"
+    license="MIT",
     packages=["thztools"],     # 需要打包的包，可以是单个或多个包
     package_data={"thztools": ["*.py","jiami/*.py"]},  # 包需要包含的数据文件（可选）
     install_requires=[           # 安装依赖，可以是单个或多个依赖项
