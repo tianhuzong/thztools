@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: thztools
-Version: 1.0
+Version: 1.0.1
 Summary: 由天狐宗开发的工具，方便开发时使用
 Home-page: https://github.com/tianhuzong/thztools
 Author: Sen
@@ -69,3 +69,4 @@ mingwen = aes.jiemi(miwen,key,suijishu,tag)
 # 第二个参数是密钥
 # 第三个参数是加密时生成的随机数
 # 第四个参数是加密时生成的验证标签
+```
