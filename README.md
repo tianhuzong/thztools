@@ -56,3 +56,4 @@ mingwen = aes.jiemi(miwen,key,suijishu,tag)
 # 第二个参数是密钥
 # 第三个参数是加密时生成的随机数
 # 第四个参数是加密时生成的验证标签
+```
