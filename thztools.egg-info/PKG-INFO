@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: thztools
-Version: 1.0.4
+Version: 1.0.5
 Summary: 由天狐宗开发的工具，方便开发时使用
 Home-page: https://github.com/tianhuzong/thztools
 Author: Sen
@@ -24,6 +24,9 @@ Description-Content-Type: text/markdown
 >1.0.3版本中，修复了维吉尼亚密码的错误，引入了与ip地址有关的类<kbd>IP</kbd>
 - - -
 >1.0.4版本中，新增了检测ip是否为合法的IPv4
+- - -
+- - -
+>1.0.5中，修复一个命名冲突
 - - -
 ##使用方法：
 - - -
