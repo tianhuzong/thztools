@@ -6,14 +6,20 @@
 >>QQ:1485319167
 - - -
 >Tianhuzong开发的工具，方便在开发中使用
-目前版本加入了加密解密内容：<kbd>RSA</kbd>,<kbd>AES</kbd>，<kbd>凯撒加密</kbd>
+1.0.2加入了加密解密内容：<kbd>RSA</kbd>,<kbd>AES</kbd>，<kbd>凯撒加密</kbd>
+- - -
+>1.0.3版本中，引入了与ip地址有关的类<kbd>IP</kbd>
 - - -
 ##使用方法：
+- - -
 ####安装模块
 ```bash
 pip install thztools
 ```
 安装完模块之后接下来就是引用了
+
+下面是引用jiami模块的类的用法
+
 ```python
 from  thztools.jiami import *
 #-----RSA-----
@@ -69,4 +75,16 @@ miwen = wjny.jiami("这是被加密的文字",'thisisakey')
 #解密
 mingwen = wjny.jiemi("这是被解密的文字",'thisisakey')
 #返回明文
+```
+
+下面是使用ip模块的类的用法
+
+```python
+from thztools.ip import *
+ip = IP()
+
+#IP地址的基本信息
+infomation = ip.jbxx(ip = '192.0.2.0')
+#ip地理位置
+geo = ip.geo(ip = '8.8.8.8')
 ```

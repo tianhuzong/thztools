@@ -2,6 +2,7 @@ MANIFEST.in
 README.md
 setup.py
 thztools/__init__.py
+thztools/ip.py
 thztools/jiami.py
 thztools.egg-info/PKG-INFO
 thztools.egg-info/SOURCES.txt

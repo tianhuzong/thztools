@@ -131,7 +131,7 @@ class AES:
         except:
             return None
 class Weijiniya:
-    def jiami(plaintext, key):
+    def jiami(self,plaintext, key):
         """
         使用维吉尼亚密码加密明文字符串
 
@@ -157,7 +157,7 @@ class Weijiniya:
                 ciphertext += c
         return ciphertext
 
-    def jiemi(ciphertext, key):
+    def jiemi(self,ciphertext, key):
         """
         使用维吉尼亚密码解密密文字符串
 
