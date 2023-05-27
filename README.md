@@ -8,7 +8,9 @@
 >Tianhuzong开发的工具，方便在开发中使用
 1.0.2加入了加密解密内容：<kbd>RSA</kbd>,<kbd>AES</kbd>，<kbd>凯撒加密</kbd>
 - - -
->1.0.3版本中，引入了与ip地址有关的类<kbd>IP</kbd>
+>1.0.3版本中，修复了维吉尼亚密码的错误，引入了与ip地址有关的类<kbd>IP</kbd>
+- - -
+>1.0.4版本中，新增了检测ip是否为合法的IPv4
 - - -
 ##使用方法：
 - - -
@@ -82,7 +84,7 @@ mingwen = wjny.jiemi("这是被解密的文字",'thisisakey')
 ```python
 from thztools.ip import *
 ip = IP()
-
+#请注意，输入的ip应为IPv4地址
 #IP地址的基本信息
 infomation = ip.jbxx(ip = '192.0.2.0')
 #ip地理位置
