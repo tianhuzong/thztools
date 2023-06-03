@@ -1,3 +1,16 @@
+Metadata-Version: 2.1
+Name: tianhutools
+Version: 1.0.1
+Summary: 由天狐宗开发的工具，方便开发时使用,已更名为tianhutools
+Home-page: https://github.com/tianhuzong/thztools
+Author: Sen
+Author-email: tianhuzong@qq.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
 # tianhutools
 >author:Sen
 >>e-mail:tianhuzong@qq.com 
