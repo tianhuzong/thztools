@@ -3,7 +3,7 @@ with open("./README.md",mode='r',encoding='utf-8') as f:
     des = f.read()
 setup(
     name="tianhutools",      # 包名，用于安装和调用该包
-    version="1.0.1",               # 版本号
+    version="1.0.2",               # 版本号
     author="Sen",
     description="由天狐宗开发的工具，方便开发时使用,已更名为tianhutools",
     long_description=des,
@@ -17,7 +17,8 @@ setup(
         "rsa",
         "Crypto",
         "2ip",
-        "sumy"
+        "sumy",
+        "jieba"
     ],
     classifiers=[                # 分类标签（可选），使用 PyPI 标准分类
         "Programming Language :: Python :: 3",
