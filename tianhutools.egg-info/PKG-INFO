@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: tianhutools
-Version: 1.0.2
+Version: 1.0.3
 Summary: 由天狐宗开发的工具，方便开发时使用,已更名为tianhutools
 Home-page: https://github.com/tianhuzong/thztools
 Author: Sen
@@ -34,6 +34,8 @@ Description-Content-Type: text/markdown
 >new 1.0.1版本中，将文本缩短修改为使用Python标准库re,math,和第三方库jieba
 - - -
 >1.0.2版本中，修复了上个版本未将jieba安装进setup，并将rsa密钥修改为pem格式，rsa的密文，明文，签名文本与aes的密文，明文都修改为base64
+- - -
+>1.0.3版本中，修改了AES加密使用的lib，修复了RSA加密出的错误
 ##使用方法：
 - - -
 ####安装模块

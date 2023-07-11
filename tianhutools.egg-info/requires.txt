@@ -1,5 +1,5 @@
 rsa
-Crypto
+cryptography
 2ip
 sumy
 jieba
